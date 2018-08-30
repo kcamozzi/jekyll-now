@@ -7,6 +7,6 @@ I guess...
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
-This is a test!! 
+This is a test!! Update!
 
 ¯\\_(ツ)_/¯
