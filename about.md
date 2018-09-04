@@ -1,15 +1,22 @@
 ---
 layout: page
-title: About
+title: About Me
 permalink: /about/
 ---
 
-Some information about you!
+My name is Kevin Camozzi and I am currently studying Computer Science at CSU Chico. 
 
-### More Information
+This is a landing page for some blog posts I might make about my studies or interests.
 
-A place to include any other types of information that you'd like to include about yourself.
+Est. Graduation Date: June 2019
+
+### Current Class Schedule
+
+CSCI 551 - Numerical Methods and Parallel Programming <br>
+CSCI 340 - Operating Systems <br>
+CSCI 430 - Software Engineering <br>
+CINS 548 - Advanced Security <br>
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[kevincamozzi@gmail.com](mailto:kevincamozzi@gmail.com)
