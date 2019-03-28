@@ -13,9 +13,9 @@ Est. Graduation Date: June 2019
 ### Current Class Schedule
 
 CSCI 551 - Numerical Methods and Parallel Programming <br>
-CSCI 340 - Operating Systems <br>
-CSCI 430 - Software Engineering <br>
-CINS 548 - Advanced Security <br>
+CSCI 540 - Systems Programming <br>
+CSCI 580 - Artifical Intelligence <br>
+CSCI 490 - Senior Project <br>
 
 ### Contact me
 
