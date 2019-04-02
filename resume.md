@@ -6,5 +6,5 @@ permalink: /resume/
 
 ## Resume
 
-this should contain my resume
+this should contain my resume?
 
