@@ -32,15 +32,16 @@ After aquiring all my components, my first task was to make sure my pi was acces
 Now came the intimidating part, at least for me. Everything I was taught in school was purely software and code. Wiring and schematics aren't exactly my strongsuit. I followed the wiring schematic found on [circuitbasics.com's](http://www.circuitbasics.com/how-to-set-up-the-dht11-humidity-sensor-on-the-raspberry-pi/) tutorial. I followed the inital tutorial for the 4 pinned DHT11, but I noticed that their sensor wasn't coupled with a moisture sensor and they had a pin that was not used. After trial and error with my sensors, I figured out that the extra pin on my sensor was for the moisture sensor so I needed to wire that to a GPIO pin as well. I was using a raspberry pi zero so I used a [different pin layout](https://www.raspberrypi-spy.co.uk/wp-content/uploads/2012/06/Raspberry-Pi-GPIO-Layout-Model-B-Plus-rotated-2700x900.png) than the provided tutorial.
 
 After I figured out the wiring, now was the time to test run some code. The circuitbasic's tutorial had suggested using Adafruit's DHT11 python library, so I cloned and installed their library. This allowed me to print the current temperature and humidity to the terminal. The most important function I wanted to get working today was the ability to check if the seeds needed watering. I used [piddlerintheroot's instructable](https://www.instructables.com/id/Soil-Moisture-Sensor-Raspberry-Pi/) on wiring and coding the moisture sensor. Although I did run into some issues. The event_detect and event_callback were not giving me the results from my sensor correctly. It seemed everytime I tested my sensor in a cup of water, it would trigger the "no water detected" string from the provided if statement. This would trigger when the sensor was dipped in the water and when it was removed. Very rarely would it read "water detected", but it did occur sometimes. I decided to output the value of the sensor using an infinite loop.
-```python
+
+{% highlight python %}
 while True:
         print(str(GPIO.input(channel)))
         time.sleep(1)
-```
+{% endhighlight %}
 
 This allowed me to see everytime the sensor was "wet" I was getting a value of 1, and when the sensor was "dry" the value was 0. With this information, I was then able to combine portions of code from the Adafruit library and from piddlerintheroot's instructable to make a simple python script to output temperature, humidity and if the soil had moisture.
 
-```python
+{% highlight python %}
 #temp/humid gpio pin 15, moisture gpio pin 14
 
 import sys
@@ -73,4 +74,4 @@ if gpio.input(mPin):
 else:
     print("Soil is dry, ready for moisture")
     sys.exit(1)
-```
+{% endhighlight %}
