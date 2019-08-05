@@ -3,7 +3,7 @@ layout: post
 title: Operation Moisture
 ---
 
-![Operation Moisture](/images/moisture.png)
+![Operation Moisture](/images/moisture.png){: .center-image }
 
 As a freshly graduted computer science student, I needed to find a project to keep myself occupied during my ongoing job hunt. I have recently taken an interest in automated gardening. Personally, I have no experience in gardening or growing plants in any capacity. My goal is to apply my skillset of electronics and technologies in order to build a sort of automated environment.
 <!--more-->
@@ -24,10 +24,10 @@ And a list of all my current components
 * Wide planter box, potting soil and seeds
 
 For the brains of the operation, I chose a [raspberry pi zero w](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). Mine came preinstalled with male headers. I preferred this since I dont have much experience soldering, but you can buy them headless as well. I'm not going to need much processing power, and I love the compact size of the zero so this fit my project perfectly.
-![Raspberry Pi Zero](/images/operationMoisture/rpi_hand.png)
+![Raspberry Pi Zero](/images/operationMoisture/rpi_hand.png){: .center-image }
 
 The sensor I used is a [DHT11](https://www.osepp.com/electronic-modules/sensor-modules/71-humidity-moisture-breakout) humidity and temperature sensor with an additional moisture sensor for detecting if my soil is wet or dry. Honestly the temperature and humidity are additional sensors I didn't need at the beginning but it's nice to have them.
-![Moisture Sensor](/images/moistureSensor.jpg)
+![Moisture Sensor](/images/moistureSensor.jpg){: .center-image }
 
 After aquiring all my components, my first task was to make sure my pi was accessable by SSH so I wouldn't need to bother with additional peripherals. I also needed to be sure that the area in which I was placing my garden would be accessable by wifi. 
 
@@ -80,9 +80,9 @@ else:
 
 Here are some pictures of the first stage of this project.
 
-![Planter overall view](/images/operationMoisture/small_IMG_20190805_151924.jpg)
-![Sensor close view](/images/operationMoisture/small_MVIMG_20190805_151929.jpg)
-![Components attached to planter](/images/operationMoisture/small_MVIMG_20190805_151938.jpg)
+![Planter overall view](/images/operationMoisture/small_IMG_20190805_151924.jpg){: .center-image }
+![Sensor close view](/images/operationMoisture/small_MVIMG_20190805_151929.jpg){: .center-image }
+![Components attached to planter](/images/operationMoisture/small_MVIMG_20190805_151938.jpg){: .center-image }
 
 
 The planter is now neatly setup on my porch and hopefully I can continue to improve on this project. I've already brainstormed a few options for added features.
