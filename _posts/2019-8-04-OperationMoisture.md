@@ -43,6 +43,8 @@ while True:
 
 This allowed me to see everytime the sensor was "wet" I was getting a value of 1, and when the sensor was "dry" the value was 0. With this information, I was then able to combine portions of code from the Adafruit library and from piddlerintheroot's instructable to make a simple python script to output temperature, humidity and if the soil had moisture.
 
+![Terminal output](/images/operationMoisture/terminal.png){: .center-image }
+
 {% highlight python %}
 #temp/humid gpio pin 15, moisture gpio pin 14
 
@@ -93,6 +95,6 @@ The planter is now neatly setup on my porch and hopefully I can continue to impr
 
 UPDATE: Woke up this morning to find that my command strips didn't hold very well on the side of the planter, and a little creature decided to take a nap on the adhesive. Don't worry, I was able to wet the strip and slowly peel him off and he was able to return back to his home! Silly little creature.
 
-![LIZARD!!](/images/operationMoisture/small_IMG_20190805_150559.jpg)
+![LIZARD!!](/images/operationMoisture/small_IMG_20190805_150559.jpg){: .center-image }
 
 Stay tuned!
