@@ -75,3 +75,11 @@ else:
     print("Soil is dry, ready for moisture")
     sys.exit(1)
 {% endhighlight %}
+
+The planter is now neatly setup on my porch and hopefully I can continue to improve on this project. I've already brainstormed a few options for added features.
+* Timelapse grow camera
+* Scheduled watering updates via email or SMS
+* Automated irrigation system
+* internal/external web interface for monitoring plant health and growth
+
+Stay tuned!
