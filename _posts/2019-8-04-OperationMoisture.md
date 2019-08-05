@@ -24,8 +24,10 @@ And a list of all my current components
 * Wide planter box, potting soil and seeds
 
 For the brains of the operation, I chose a [raspberry pi zero w](https://www.raspberrypi.org/products/raspberry-pi-zero-w/). Mine came preinstalled with male headers. I preferred this since I dont have much experience soldering, but you can buy them headless as well. I'm not going to need much processing power, and I love the compact size of the zero so this fit my project perfectly.
+![Raspberry Pi Zero](/images/operationMoisture/rpi_hand.png)
 
 The sensor I used is a [DHT11](https://www.osepp.com/electronic-modules/sensor-modules/71-humidity-moisture-breakout) humidity and temperature sensor with an additional moisture sensor for detecting if my soil is wet or dry. Honestly the temperature and humidity are additional sensors I didn't need at the beginning but it's nice to have them.
+![Moisture Sensor](/images/moistureSensor.jpg)
 
 After aquiring all my components, my first task was to make sure my pi was accessable by SSH so I wouldn't need to bother with additional peripherals. I also needed to be sure that the area in which I was placing my garden would be accessable by wifi. 
 
@@ -76,10 +78,21 @@ else:
     sys.exit(1)
 {% endhighlight %}
 
+Here are some pictures of the first stage of this project.
+
+![Planter overall view](/images/operationMoisture/small_IMG_20190805_151924.jpg)
+![Sensor close view](/images/operationMoisture/small_MVIMG_20190805_151929.jpg)
+![Components attached to planter](/images/operationMoisture/small_MVIMG_20190805_151938.jpg)
+
+
 The planter is now neatly setup on my porch and hopefully I can continue to improve on this project. I've already brainstormed a few options for added features.
 * Timelapse grow camera
 * Scheduled watering updates via email or SMS
 * Automated irrigation system
 * internal/external web interface for monitoring plant health and growth
+
+UPDATE: Woke up this morning to find that my command strips didn't hold very well on the side of the planter, and a little creature decided to take a nap on the adhesive. Don't worry, I was able to wet the strip and slowly peel him off and he was able to return back to his home! Silly little creature.
+
+![LIZARD!!](/images/operationMoisture/small_IMG_20190805_150559.jpg)
 
 Stay tuned!
