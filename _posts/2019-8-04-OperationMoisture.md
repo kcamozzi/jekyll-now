@@ -83,7 +83,9 @@ else:
 Here are some pictures of the first stage of this project.
 
 {: .center-image }![Planter overall view](/images/operationMoisture/small_IMG_20190805_151924.jpg)
+
 {: .center-image }![Sensor close view](/images/operationMoisture/small_MVIMG_20190805_151929.jpg)
+
 {: .center-image }![Components attached to planter](/images/operationMoisture/small_MVIMG_20190805_151938.jpg)
 
 
